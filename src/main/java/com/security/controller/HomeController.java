@@ -23,7 +23,7 @@ public class HomeController {
 	public ResponseEntity<?> getGreetings(HttpServletRequest request) {
 
 //		String id = request.getSession().getId();
-		return new ResponseEntity<>("Hello User Welcome ", HttpStatus.OK);
+		return new ResponseEntity<>("Hello User Welcome to SpringBoot tutorial ", HttpStatus.OK);
 
 	}
 
